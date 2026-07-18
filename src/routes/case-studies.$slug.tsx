@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
-import { caseStudies, getCaseStudy } from "@/lib/content";
+import { caseStudies, getCaseStudy, type CaseStudy } from "@/lib/content";
 
 export const Route = createFileRoute("/case-studies/$slug")({
   loader: ({ params }) => {
@@ -54,7 +54,7 @@ export const Route = createFileRoute("/case-studies/$slug")({
 });
 
 function CaseStudyPage() {
-  const c = Route.useLoaderData();
+  const c = Route.useLoaderData() as CaseStudy;
   const others = caseStudies.filter((x) => x.slug !== c.slug).slice(0, 2);
 
   return (
