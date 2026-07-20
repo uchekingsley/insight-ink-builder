@@ -4,13 +4,13 @@ import { skillGroups, toolGroups } from "@/lib/content";
 export const Route = createFileRoute("/skills")({
   head: () => ({
     meta: [
-      { title: "Skills & Tools — Miracle Awotide" },
+      { title: "Skills & Tools | Miracle Awotide" },
       {
         name: "description",
         content:
           "Strategy, content, marketing, and communication skills, plus the tools I use day to day for research, planning, design, and production.",
       },
-      { property: "og:title", content: "Skills & Tools — Miracle Awotide" },
+      { property: "og:title", content: "Skills & Tools | Miracle Awotide" },
       { property: "og:url", content: "/skills" },
     ],
     links: [{ rel: "canonical", href: "/skills" }],

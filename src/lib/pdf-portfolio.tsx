@@ -195,7 +195,7 @@ function CaseStudyPages({ slug }: { slug: string }) {
 
 function PortfolioDoc() {
   return (
-    <Document title={`${person.name} — Portfolio`} author={person.name}>
+    <Document title={`${person.name} | Portfolio`} author={person.name}>
       {/* COVER */}
       <Page size="A4" style={s.cover}>
         <View style={s.coverInner}>

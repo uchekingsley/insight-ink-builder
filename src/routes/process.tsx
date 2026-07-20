@@ -4,13 +4,13 @@ import { process as steps } from "@/lib/content";
 export const Route = createFileRoute("/process")({
   head: () => ({
     meta: [
-      { title: "My Process — Miracle Awotide" },
+      { title: "My Process | Miracle Awotide" },
       {
         name: "description",
         content:
-          "A six-step approach from discovery to review — how I turn business goals into a working social media strategy and content plan.",
+          "A six-step approach from discovery to review | how I turn business goals into a working social media strategy and content plan.",
       },
-      { property: "og:title", content: "My Process — Miracle Awotide" },
+      { property: "og:title", content: "My Process | Miracle Awotide" },
       { property: "og:url", content: "/process" },
     ],
     links: [{ rel: "canonical", href: "/process" }],

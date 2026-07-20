@@ -7,12 +7,12 @@ import { person } from "@/lib/content";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Miracle Awotide" },
+      { title: "Contact | Miracle Awotide" },
       {
         name: "description",
         content: "Get in touch to discuss social media strategy, content planning, or a case study.",
       },
-      { property: "og:title", content: "Contact — Miracle Awotide" },
+      { property: "og:title", content: "Contact | Miracle Awotide" },
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
@@ -53,7 +53,7 @@ function Contact() {
     }
     setErrors({});
     const body = encodeURIComponent(
-      `Hi Miracle,\n\n${parsed.data.message}\n\n— ${parsed.data.name}\n${parsed.data.email}`,
+      `Hi Miracle,\n\n${parsed.data.message}\n\n, ${parsed.data.name}\n${parsed.data.email}`,
     );
     const subject = encodeURIComponent(parsed.data.subject);
     window.location.href = `mailto:${person.email}?subject=${subject}&body=${body}`;

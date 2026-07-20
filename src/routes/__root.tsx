@@ -81,14 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Miracle Awotide — Social Media Strategist & Content Planner" },
+      { title: "Miracle Awotide | Social Media Strategist & Content Planner" },
       {
         name: "description",
         content:
-          "Portfolio of Miracle Oluwaferanmi Awotide — a Social Media Strategist and Content Planner helping small businesses and growing brands build intentional, research-driven social media.",
+          "Portfolio of Miracle Oluwaferanmi Awotide | a Social Media Strategist and Content Planner helping small businesses and growing brands build intentional, research-driven social media.",
       },
       { name: "author", content: "Miracle Oluwaferanmi Awotide" },
-      { property: "og:title", content: "Miracle Awotide — Social Media Strategist & Content Planner" },
+      { property: "og:title", content: "Miracle Awotide | Social Media Strategist & Content Planner" },
       {
         property: "og:description",
         content:

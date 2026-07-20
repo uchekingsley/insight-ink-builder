@@ -5,13 +5,13 @@ import { caseStudies } from "@/lib/content";
 export const Route = createFileRoute("/case-studies/")({
   head: () => ({
     meta: [
-      { title: "Case Studies — Miracle Awotide" },
+      { title: "Case Studies | Miracle Awotide" },
       {
         name: "description",
         content:
-          "Client work and sample strategy projects — CEID Hub, Everest Studios, BridgePoint Cultural Council, and Oge Skincare.",
+          "Client work and sample strategy projects | CEID Hub, Everest Studios, BridgePoint Cultural Council, and Oge Skincare.",
       },
-      { property: "og:title", content: "Case Studies — Miracle Awotide" },
+      { property: "og:title", content: "Case Studies | Miracle Awotide" },
       { property: "og:url", content: "/case-studies" },
     ],
     links: [{ rel: "canonical", href: "/case-studies" }],
@@ -31,7 +31,7 @@ function CaseStudyIndex() {
           Client work and strategy projects
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-[var(--charcoal)]">
-          Each project follows the same structure — overview, challenge, solution, deliverables,
+          Each project follows the same structure | overview, challenge, solution, deliverables,
           status, lessons. Sample projects are clearly labelled and used to demonstrate strategic
           thinking on scenarios I've designed myself.
         </p>

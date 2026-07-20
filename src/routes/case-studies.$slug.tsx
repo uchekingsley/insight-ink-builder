@@ -15,9 +15,9 @@ export const Route = createFileRoute("/case-studies/$slug")({
     const c = loaderData;
     return {
       meta: [
-        { title: `${c.name} — Case Study | Miracle Awotide` },
+        { title: `${c.name} | Case Study | Miracle Awotide` },
         { name: "description", content: c.overview },
-        { property: "og:title", content: `${c.name} — Case Study` },
+        { property: "og:title", content: `${c.name} | Case Study` },
         { property: "og:description", content: c.overview },
         { property: "og:type", content: "article" },
         { property: "og:url", content: `/case-studies/${c.slug}` },
