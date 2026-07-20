@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "A Social Media Strategist with a background in History and growing expertise in Digital Marketing | bringing research and analysis to content strategy.",
+          "A Social Media Strategist with a background in History and growing expertise in Digital Marketing, bringing research and analysis to content strategy.",
       },
       { property: "og:title", content: "About | Miracle Awotide" },
       { property: "og:url", content: "/about" },

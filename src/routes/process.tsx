@@ -8,7 +8,7 @@ export const Route = createFileRoute("/process")({
       {
         name: "description",
         content:
-          "A six-step approach from discovery to review | how I turn business goals into a working social media strategy and content plan.",
+          "A six-step approach from discovery to review, showing how I turn business goals into a working social media strategy and content plan.",
       },
       { property: "og:title", content: "My Process | Miracle Awotide" },
       { property: "og:url", content: "/process" },

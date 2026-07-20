@@ -84,7 +84,7 @@ function Home() {
                 </div>
                 <div>
                   <dt className="text-[var(--grey)]">Based in</dt>
-                  <dd className="text-[var(--navy-deep)]">Lagos, Nigeria | working with clients anywhere</dd>
+                  <dd className="text-[var(--navy-deep)]">Lagos, Nigeria, working with clients anywhere</dd>
                 </div>
               </dl>
             </div>

@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Portfolio of Miracle Oluwaferanmi Awotide | a Social Media Strategist and Content Planner helping small businesses and growing brands build intentional, research-driven social media.",
+          "Portfolio of Miracle Oluwaferanmi Awotide, a Social Media Strategist and Content Planner helping small businesses and growing brands build intentional, research-driven social media.",
       },
       { name: "author", content: "Miracle Oluwaferanmi Awotide" },
       { property: "og:title", content: "Miracle Awotide | Social Media Strategist & Content Planner" },
