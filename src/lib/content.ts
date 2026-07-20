@@ -16,8 +16,6 @@ import _ogeAction from "@/assets/case-studies/oge-skincare-04-action-plan.jpg.as
 
 const everestCover = asset(_everestCover);
 const everestStrategy = asset(_everestStrategy);
-const everestCover = asset(_everestCover);
-const everestStrategy = asset(_everestStrategy);
 const bpCover = asset(_bpCover);
 const bpPersona = asset(_bpPersona);
 const bpApproach = asset(_bpApproach);
