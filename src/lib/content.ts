@@ -7,6 +7,7 @@ import _everestCover from "@/assets/case-studies/everest-01-cover.jpg.asset.json
 import _everestStrategy from "@/assets/case-studies/everest-02-content-strategy.jpg.asset.json";
 import _everestCal12 from "@/assets/case-studies/everest-03-week1-2-calendar.jpg.asset.json";
 import _everestCal34 from "@/assets/case-studies/everest-04-week3-4-calendar.jpg.asset.json";
+void _everestCal12; void _everestCal34;
 import _bpCover from "@/assets/case-studies/bridgepoint-01-cover.jpg.asset.json";
 import _bpPersona from "@/assets/case-studies/bridgepoint-02-persona.jpg.asset.json";
 import _bpApproach from "@/assets/case-studies/bridgepoint-03-content-approach.jpg.asset.json";
@@ -184,8 +185,6 @@ export const caseStudies: CaseStudy[] = [
     gallery: [
       { src: everestCover.url, alt: "Everest Studios cover" },
       { src: everestStrategy.url, alt: "Everest Studios content strategy" },
-      { src: everestCal12.url, alt: "Everest Studios week 1–2 content calendar" },
-      { src: everestCal34.url, alt: "Everest Studios week 3–4 content calendar" },
     ],
   },
   {
