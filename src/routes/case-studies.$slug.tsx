@@ -69,7 +69,8 @@ function CaseStudyPage() {
             <ArrowLeft size={14} /> All case studies
           </Link>
           <p className="eyebrow mt-8">{c.status}</p>
-          <h1 className="mt-3 font-serif text-4xl leading-[1.1] text-[var(--cream)] sm:text-5xl md:text-6xl">
+          <h1 className="mt-6 font-serif text-4xl leading-[1.1] text-[var(--cream)] sm:text-5xl md:text-6xl">
+
             {c.name}
           </h1>
           {c.subtitle ? (
@@ -192,7 +193,7 @@ function CaseStudyPage() {
               >
                 <div>
                   <span className="eyebrow">{o.status}</span>
-                  <p className="mt-1 font-serif text-xl text-[var(--navy-deep)]">{o.name}</p>
+                  <p className="mt-4 font-serif text-xl text-[var(--navy-deep)]">{o.name}</p>
                 </div>
                 <span className="text-[var(--navy-deep)] group-hover:text-[var(--gold)]">→</span>
               </Link>
