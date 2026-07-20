@@ -55,16 +55,17 @@
   --radius: 0.5rem;
 
   /* Brand */
-  /* Brand — richer, higher-chroma palette */
-  --navy: oklch(0.30 0.09 265);           /* deeper, more saturated navy */
-  --navy-deep: oklch(0.19 0.07 265);      /* near-black indigo */
-  --gold: oklch(0.76 0.175 82);           /* brighter, punchier gold */
-  --gold-light: oklch(0.86 0.16 88);      /* vivid warm gold */
-  --cream: oklch(0.972 0.02 85);          /* warmer cream */
-  --charcoal: oklch(0.28 0.02 275);
+  /* Brand — vivid, editorial palette */
+  --navy: oklch(0.32 0.14 268);           /* rich royal indigo */
+  --navy-deep: oklch(0.18 0.10 268);      /* deep midnight */
+  --gold: oklch(0.80 0.19 84);            /* saturated warm gold */
+  --gold-light: oklch(0.90 0.17 92);      /* luminous champagne */
+  --cream: oklch(0.975 0.028 82);         /* warm ivory */
+  --charcoal: oklch(0.24 0.03 275);
   --grey: oklch(0.52 0.012 275);
-  --accent: oklch(0.60 0.20 25);          /* bold terracotta accent */
-  --accent-soft: oklch(0.72 0.18 40);
+  --accent: oklch(0.62 0.22 22);          /* bold terracotta */
+  --accent-soft: oklch(0.74 0.19 40);
+  --plum: oklch(0.42 0.16 340);           /* magenta plum accent */
 
   /* Semantic */
   --background: var(--cream);

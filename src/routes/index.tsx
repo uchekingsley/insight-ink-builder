@@ -142,11 +142,11 @@ function Home() {
                     className="text-[var(--navy-deep)] transition group-hover:text-[var(--gold)] group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                   />
                 </div>
-                <h3 className="mt-2 font-serif text-2xl text-[var(--navy-deep)]">{c.name}</h3>
+                <h3 className="mt-6 font-serif text-2xl text-[var(--navy-deep)]">{c.name}</h3>
                 {c.subtitle ? (
-                  <p className="mt-1 text-sm text-[var(--grey)]">{c.subtitle}</p>
+                  <p className="mt-3 text-sm text-[var(--grey)]">{c.subtitle}</p>
                 ) : (
-                  <p className="mt-1 text-sm text-[var(--grey)]">
+                  <p className="mt-3 text-sm text-[var(--grey)]">
                     {c.info.find((i) => i.label === "Industry")?.value}
                   </p>
                 )}
