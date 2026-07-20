@@ -90,8 +90,8 @@ const s = StyleSheet.create({
 
   caseHeader: { marginBottom: 10 },
   caseStatus: { fontSize: 8, letterSpacing: 1.5, textTransform: "uppercase", color: GOLD, fontWeight: 500 },
-  caseName: { fontFamily: "Playfair", fontSize: 22, color: NAVY_DEEP, marginTop: 10 },
-  caseSubtitle: { fontSize: 10, color: GREY, marginTop: 2 },
+  caseName: { fontFamily: "Playfair", fontSize: 22, color: NAVY_DEEP, marginTop: 18 },
+  caseSubtitle: { fontSize: 10, color: GREY, marginTop: 6 },
   metaRow: { flexDirection: "row", flexWrap: "wrap", marginTop: 8, marginBottom: 10, gap: 12 },
   metaCell: { fontSize: 8.5, color: CHARCOAL, minWidth: 140, marginBottom: 4 },
   metaLabel: { color: GREY, marginRight: 4 },
