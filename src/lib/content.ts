@@ -5,6 +5,8 @@ const asset = (v: unknown) => v as AssetJson;
 
 import _everestCover from "@/assets/case-studies/everest-01-cover.jpg.asset.json";
 import _everestStrategy from "@/assets/case-studies/everest-02-content-strategy.jpg.asset.json";
+import _everestCal12 from "@/assets/case-studies/everest-03-week1-2-calendar.jpg.asset.json";
+import _everestCal34 from "@/assets/case-studies/everest-04-week3-4-calendar.jpg.asset.json";
 import _bpCover from "@/assets/case-studies/bridgepoint-01-cover.jpg.asset.json";
 import _bpPersona from "@/assets/case-studies/bridgepoint-02-persona.jpg.asset.json";
 import _bpApproach from "@/assets/case-studies/bridgepoint-03-content-approach.jpg.asset.json";
@@ -16,6 +18,8 @@ import _ogeAction from "@/assets/case-studies/oge-skincare-04-action-plan.jpg.as
 
 const everestCover = asset(_everestCover);
 const everestStrategy = asset(_everestStrategy);
+const everestCal12 = asset(_everestCal12);
+const everestCal34 = asset(_everestCal34);
 const bpCover = asset(_bpCover);
 const bpPersona = asset(_bpPersona);
 const bpApproach = asset(_bpApproach);
@@ -180,6 +184,8 @@ export const caseStudies: CaseStudy[] = [
     gallery: [
       { src: everestCover.url, alt: "Everest Studios cover" },
       { src: everestStrategy.url, alt: "Everest Studios content strategy" },
+      { src: everestCal12.url, alt: "Everest Studios content calendar, weeks 1 and 2" },
+      { src: everestCal34.url, alt: "Everest Studios content calendar, weeks 3 and 4" },
     ],
   },
   {
