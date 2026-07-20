@@ -6,8 +6,8 @@ import { DownloadPortfolio } from "@/components/download-portfolio";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Miracle Awotide — Social Media Strategist & Content Planner" },
-      { property: "og:title", content: "Miracle Awotide — Social Media Strategist & Content Planner" },
+      { title: "Miracle Awotide | Social Media Strategist & Content Planner" },
+      { property: "og:title", content: "Miracle Awotide | Social Media Strategist & Content Planner" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -84,7 +84,7 @@ function Home() {
                 </div>
                 <div>
                   <dt className="text-[var(--grey)]">Based in</dt>
-                  <dd className="text-[var(--navy-deep)]">Lagos, Nigeria — working with clients anywhere</dd>
+                  <dd className="text-[var(--navy-deep)]">Lagos, Nigeria, working with clients anywhere</dd>
                 </div>
               </dl>
             </div>

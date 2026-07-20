@@ -4,13 +4,13 @@ import { person } from "@/lib/content";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Miracle Awotide" },
+      { title: "About | Miracle Awotide" },
       {
         name: "description",
         content:
-          "A Social Media Strategist with a background in History and growing expertise in Digital Marketing — bringing research and analysis to content strategy.",
+          "A Social Media Strategist with a background in History and growing expertise in Digital Marketing, bringing research and analysis to content strategy.",
       },
-      { property: "og:title", content: "About — Miracle Awotide" },
+      { property: "og:title", content: "About | Miracle Awotide" },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],

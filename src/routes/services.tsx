@@ -4,13 +4,13 @@ import { services, servicesIntro } from "@/lib/content";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Miracle Awotide" },
+      { title: "Services | Miracle Awotide" },
       {
         name: "description",
         content:
           "Social media strategy, audits, content strategy, calendars, pillar development, caption and reel scripts, brand messaging, community management, and personal branding.",
       },
-      { property: "og:title", content: "Services — Miracle Awotide" },
+      { property: "og:title", content: "Services | Miracle Awotide" },
       { property: "og:url", content: "/services" },
     ],
     links: [{ rel: "canonical", href: "/services" }],
