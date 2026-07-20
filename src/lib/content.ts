@@ -41,7 +41,7 @@ export const person = {
   intro:
     "I help businesses move beyond random posting by creating research driven social media strategies, content plans, and messaging that align with their goals. I particularly enjoy working with small businesses and growing brands while building strategies that serve organisations of different sizes.",
   aboutIntro:
-    "I'm a Social Media Strategist with a background in History and growing expertise in Digital Marketing. The research, analysis, and communication skills I built through academic training now shape how I approach social media strategy and content planning — starting from the business, not the feed.",
+    "I'm a Social Media Strategist with a background in History and growing expertise in Digital Marketing. The research, analysis, and communication skills I built through academic training now shape how I approach social media strategy and content planning, starting from the business, not the feed.",
   aboutQuote:
     "I believe effective social media starts with understanding the business before creating the content.",
   aboutClosing:
@@ -64,9 +64,9 @@ export const servicesIntro =
 
 export const services: { title: string; description: string }[] = [
   { title: "Social Media Strategy", description: "A tailored roadmap that aligns your social channels with real business goals, audience insight, and a clear point of view." },
-  { title: "Social Media Audit", description: "A structured review of your current presence, content, and engagement — with prioritised recommendations you can act on." },
+  { title: "Social Media Audit", description: "A structured review of your current presence, content, and engagement, with prioritised recommendations you can act on." },
   { title: "Content Strategy", description: "Content pillars, brand voice, and channel priorities that turn scattered posting into a recognisable, repeatable presence." },
-  { title: "Content Calendar Development", description: "Monthly calendars that map posts, formats, and campaigns to your goals — no more reactive week to week posting." },
+  { title: "Content Calendar Development", description: "Monthly calendars that map posts, formats, and campaigns to your goals, so you're no longer posting reactively week to week." },
   { title: "Content Planning", description: "Themes, formats, and post concepts planned in advance so your team can execute confidently." },
   { title: "Content Pillar Development", description: "A defined set of recurring themes and series that build recognition and repeat viewership." },
   { title: "Caption Writing", description: "Captions that carry your voice and move people from scrolling to taking action." },
@@ -171,7 +171,7 @@ export const caseStudies: CaseStudy[] = [
     challenge:
       "Content was inconsistent and not building toward a clear audience or business goal. There was no defined brand voice, no content calendar, and no structured way to turn client shoots into a recognizable, recurring online presence.",
     solution:
-      "Acting as creative director and strategist, I led a full social media audit, defined the brand's content pillars, and built a four week content calendar across Instagram and Facebook, structured around three posts per week and a daily Stories rhythm. I defined the brand voice and values, developed a customer persona, and designed two recurring series to build repeat viewership.",
+      "Acting as creative director and strategist, I led a full social media audit, defined the brand's content pillars, and built a four week content calendar for Instagram, structured around three posts per week and a daily Stories rhythm. I defined the brand voice and values, developed a customer persona, and designed two recurring series to build repeat viewership.",
     deliverables: [
       "Social media audit", "Audience research report", "Content strategy", "Brand content pillars",
       "One month content calendar", "Reel scripts", "Carousel concepts", "Caption library", "Creative direction document",
@@ -237,7 +237,7 @@ export const caseStudies: CaseStudy[] = [
     overview:
       "A self directed audit and strategy exercise for a fictional Nigerian skincare brand, built to demonstrate how a scattered social media presence can be diagnosed and redirected using research and competitor benchmarking.",
     challenge:
-      "The brand's name means beauty and elegance in Yoruba, but its social media presence did not reflect that identity. Posting was inconsistent — 4 to 6 times a month against a 15 to 20 post benchmark for growing Nigerian beauty brands — with no defined objectives or KPIs. Engagement sat at 1.8%, well below the 3.5 to 6.0% typical for comparable Nigerian skincare brands, and comment response rates were below 30%.",
+      "The brand's name means beauty and elegance in Yoruba, but its social media presence did not reflect that identity. Posting was inconsistent, 4 to 6 times a month against a 15 to 20 post benchmark for growing Nigerian beauty brands, with no defined objectives or KPIs. Engagement sat at 1.8%, well below the 3.5 to 6.0% typical for comparable Nigerian skincare brands, and comment response rates were below 30%.",
     solution:
       "I conducted a full platform by platform audit across Instagram, TikTok, and Facebook, benchmarked the brand against three direct competitors, and diagnosed three compounding gaps behind the stagnant growth: a strategy gap, a content gap, and an execution gap. I built a target persona to realign the brand toward higher intent, higher income customers, and developed a recommended content pillar framework to replace the existing promotion heavy content mix.",
     deliverables: ["Social media audit", "Brand positioning framework", "Content strategy", "Content pillars", "Content calendar", "Brand recommendations"],

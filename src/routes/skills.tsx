@@ -24,7 +24,7 @@ function Skills() {
       <div className="max-w-3xl">
         <p className="eyebrow">Skills & Tools</p>
         <h1 className="mt-4 font-serif text-4xl leading-tight text-[var(--navy-deep)] sm:text-5xl">
-          Grounded in research, delivered in the tools you already know
+          Built on solid research, using the everyday tools your team already works in
         </h1>
       </div>
 
