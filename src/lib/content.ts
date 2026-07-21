@@ -6,7 +6,7 @@ const asset = (v: unknown) => v as AssetJson;
 import _everestCover from "@/assets/case-studies/everest-01-cover.jpg.asset.json";
 import _everestStrategy from "@/assets/case-studies/everest-02-content-strategy.jpg.asset.json";
 import _everestCal12 from "@/assets/case-studies/everest-03-week1-2-calendar.jpg.asset.json";
-import _everestCal34 from "@/assets/case-studies/everest-04-week3-4-calendar.jpg.asset.json";
+import everestCal34Url from "@/assets/case-studies/everest-04-week3-4-calendar.jpg?url";
 import _bpCover from "@/assets/case-studies/bridgepoint-01-cover.jpg.asset.json";
 import _bpPersona from "@/assets/case-studies/bridgepoint-02-persona.jpg.asset.json";
 import _bpApproach from "@/assets/case-studies/bridgepoint-03-content-approach.jpg.asset.json";
