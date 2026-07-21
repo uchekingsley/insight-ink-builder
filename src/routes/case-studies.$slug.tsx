@@ -69,9 +69,10 @@ function CaseStudyPage() {
             <ArrowLeft size={14} /> All case studies
           </Link>
           <p className="eyebrow mt-10 block">{c.status}</p>
-          <h1 className="mt-6 block font-serif text-4xl leading-[1.1] text-[var(--cream)] sm:mt-8 sm:text-5xl md:text-6xl">
+          <h1 className="mt-10 block font-serif text-4xl leading-[1.15] text-[var(--cream)] sm:mt-12 sm:text-5xl md:text-6xl">
             {c.name}
           </h1>
+
 
           {c.subtitle ? (
             <p className="mt-4 max-w-3xl font-serif text-xl italic text-[var(--cream)]/80 sm:text-2xl">
