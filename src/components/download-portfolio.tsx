@@ -18,7 +18,7 @@ export function DownloadPortfolio({ className = "", label = "Download Portfolio 
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "Miracle-Awotide-Portfolio.pdf";
+      a.download = "Miracle_Awotide_Marketing_Portfolio.pdf";
       document.body.appendChild(a);
       a.click();
       a.remove();
