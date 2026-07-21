@@ -4,6 +4,7 @@ import { person, services, skillGroups, toolGroups, caseStudies, featuredForPdf,
 // Register fonts by loading @fontsource TTF assets via URL imports at build time.
 // Vite serves the ttf files; @react-pdf accepts absolute URLs.
 import interRegular from "@fontsource/inter/files/inter-latin-400-normal.woff?url";
+import interItalic from "@fontsource/inter/files/inter-latin-400-italic.woff?url";
 import interMedium from "@fontsource/inter/files/inter-latin-500-normal.woff?url";
 import interBold from "@fontsource/inter/files/inter-latin-700-normal.woff?url";
 import playfairRegular from "@fontsource/playfair-display/files/playfair-display-latin-400-normal.woff?url";
@@ -18,6 +19,7 @@ function ensureFonts() {
     family: "Inter",
     fonts: [
       { src: interRegular, fontWeight: 400 },
+      { src: interItalic, fontWeight: 400, fontStyle: "italic" },
       { src: interMedium, fontWeight: 500 },
       { src: interBold, fontWeight: 700 },
     ],
