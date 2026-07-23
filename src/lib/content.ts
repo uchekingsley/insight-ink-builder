@@ -15,6 +15,8 @@ import _ogeCover from "@/assets/case-studies/oge-skincare-01-cover.jpg.asset.jso
 import _ogeAudit from "@/assets/case-studies/oge-skincare-02-platform-audit.jpg.asset.json";
 import _ogeBench from "@/assets/case-studies/oge-skincare-03-competitor-benchmark.jpg.asset.json";
 import _ogeAction from "@/assets/case-studies/oge-skincare-04-action-plan.jpg.asset.json";
+import _ceidBlog from "@/assets/case-studies/ceid-blog-ideas.jpg.asset.json";
+import _ceidCalendar from "@/assets/case-studies/ceid-content-calendar.jpg.asset.json";
 
 const everestCover = asset(_everestCover);
 const everestStrategy = asset(_everestStrategy);
@@ -28,6 +30,8 @@ const ogeCover = asset(_ogeCover);
 const ogeAudit = asset(_ogeAudit);
 const ogeBench = asset(_ogeBench);
 const ogeAction = asset(_ogeAction);
+const ceidBlog = asset(_ceidBlog);
+const ceidCalendar = asset(_ceidCalendar);
 
 
 export const person = {
@@ -144,8 +148,11 @@ export const caseStudies: CaseStudy[] = [
     currentStatus: "Completed.",
     lessons:
       "Working inside a nonprofit setting showed how much clarity matters when translating technical or research heavy subject matter into content a general audience will actually engage with. It also reinforced the value of planning content ahead of time rather than reacting week to week.",
-    gallery: [],
-    cover: "",
+    gallery: [
+      { src: ceidBlog.url, alt: "CEID Hub blog post ideas across six content pillars" },
+      { src: ceidCalendar.url, alt: "CEID Hub Q1 2026 editorial content calendar" },
+    ],
+    cover: ceidBlog.url,
   },
   {
     slug: "everest-studios",
